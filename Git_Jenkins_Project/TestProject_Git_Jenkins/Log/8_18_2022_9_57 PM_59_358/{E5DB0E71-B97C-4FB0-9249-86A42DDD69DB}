@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="log data">
+			<Node name="row2">
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="index" type="I" value="2"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="details" type="S" value="{81AD8AC9-EA2A-407C-900F-835D6C0C91B4}"/>
+				<Prp name="name" type="S" value="CloseNotePad [KeywordTests - CloseNotePad]"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="end time" type="D" value="44791.9153417708"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="start time" type="D" value="44791.9153061458"/>
+			</Node>
+			<Node name="row0">
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="details" type="S" value="{D69BA86A-627C-411B-8909-B1BFE9DB47C7}"/>
+				<Prp name="name" type="S" value="OpenNotePad [KeywordTests - OpenNotePad]"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="end time" type="D" value="44791.915292581"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="start time" type="D" value="44791.9152779977"/>
+			</Node>
+			<Node name="row1">
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="details" type="S" value="{9A1456FF-D6FC-468E-9BB8-2C6605E4C655}"/>
+				<Prp name="name" type="S" value="EnterNote [KeywordTests - EnterNote]"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="end time" type="D" value="44791.9153058912"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="start time" type="D" value="44791.9152926736"/>
+			</Node>
+		</Node>
+	</Node>
+</Nodes>
